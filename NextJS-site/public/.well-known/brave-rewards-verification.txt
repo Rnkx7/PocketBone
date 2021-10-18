@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sassysucculents.co
+Token: 55789c41844f3e3cceec5fe835c0d259af1b8688dd34ddb0123d116efc41840c
