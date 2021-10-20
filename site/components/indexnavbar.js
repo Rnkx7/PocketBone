@@ -138,26 +138,28 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
               <DropdownMenu className="dropdown">
                 <NavLink 
                   data-placement="bottom"
-                  href="/"
-                  title="About Us"
+                  href="https://discord.gg/WbmxKptxWE"
+                  title="Discord"
+                  target="blank"
                 >
                   {!navbarCollapse && (
-                    <Image width="35" height="28" src="/discord.png"/>
+                    <Image width="35" alt="" height="28" src="/discord.png"/>
                   )} 
                   {navbarCollapse && (
-                    <Image width="35" height="35" src="/discord-1.png"/>
+                    <Image width="35" alt="" height="35" src="/discord-1.png"/>
                   )} 
                 </NavLink>
                 <NavLink 
                   data-placement="bottom"
-                  href="/"
-                  title="About Us"
+                  href="https://twitter.com/PocketBones"
+                  title="Twitter"
+                  target="blank"
                 >
                   {!navbarCollapse && (
-                    <Image width="35" height="35" src="/twitter.png"/>
+                    <Image width="35" alt="" height="35" src="/twitter.png"/>
                   )}
                   {navbarCollapse && (
-                    <Image width="35" height="30" src="/twitter-black.png"/>
+                    <Image width="35" alt="" height="30" src="/twitter-black.png"/>
                   )}
                 </NavLink>
               </DropdownMenu>

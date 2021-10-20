@@ -47,7 +47,7 @@ function MintPage() {
 
   const [bonePrice, setBonePrice] = useState(0)
 
-  const [show, setShow] = useState(true)
+  const [show, setShow] = useState(false)
  
 
   async function signIn() {
@@ -63,7 +63,7 @@ function MintPage() {
         window.web3.eth.net.getNetworkType()
         // checks if connected network is mainnet (change this to rinkeby if you wanna test on testnet)
         .then((network) => {console.log(network);
-          //if(network !== "main"){alert("You are on " + network+ " network. Change network to mainnet or you won't be able to do anything here")} 
+          if(network !== "main"){alert("You are on " + network+ " network. Change network to mainnet or you won't be able to do anything here")} 
         });  
         let wallet = accounts[0]
         setWalletAddress(wallet)
@@ -100,8 +100,8 @@ function MintPage() {
     // console.log("saleisActive" , salebool)
     setPresale(presalebool)
 
-    const whitelistBool = await boneContract.methods.addressInWhitelist(walletAddress).call() 
-    setPresale(whitelistBool)
+    const whitelistBool = await boneContract.methods.addressInWhitelist(wallet).call() 
+    setInWhiteList(whitelistBool)
 
     setNothingForSale(presalebool && salebool)
 
@@ -121,19 +121,22 @@ function MintPage() {
  
       const price = Number(bonePrice)  * how_many_bones 
 
-      const gasAmount = await boneContract.methods.mintBone(how_many_bones).estimateGas({from: walletAddress, value: price})
-      console.log("estimated gas",gasAmount)
+
 
       console.log({from: walletAddress, value: price})
       if(presale){
+        const gasAmount = await boneContract.methods.presaleMint(how_many_bones).estimateGas({from: walletAddress, value: price})
+        console.log("estimated gas",gasAmount)
         boneContract.methods
-            .PpresaleMint(how_many_bones)
+            .presaleMint(how_many_bones)
             .send({from: walletAddress, value: price, gas: String(gasAmount)})
             .on('transactionHash', function(hash){
               console.log("transactionHash", hash)
             })
       }
       else{
+        const gasAmount = await boneContract.methods.mintBone(how_many_bones).estimateGas({from: walletAddress, value: price})
+        console.log("estimated gas",gasAmount)
         boneContract.methods
             .mintBone(how_many_bones)
             .send({from: walletAddress, value: price, gas: String(gasAmount)})

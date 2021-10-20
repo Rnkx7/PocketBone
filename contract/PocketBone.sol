@@ -1674,15 +1674,11 @@ contract PocketBone is ERC721, Ownable {
     uint public reserve = 125;
     bool public isSaleActive = false;
     bool public isPresaleActive = false;
-    bool public isClaimActive = false;
     mapping(address => bool) private _whiteList;
     mapping(address => uint256) private _whiteListClaimed;
-    mapping(address => bool) private _claimList;
-    mapping(address => uint256) private _claimListClaimed;
-    mapping(address => uint256) private _claimable;
 
-    address public constant w1 = "someones wallet";
-    address public constant w2 = "someone elses wallet";
+    address public constant w1 = 0x98eAfb43BB4688d12C561eda173fCe11e7d2c911; //BEASTON
+    address public constant w2 = 0xdb734624D5f1F53508121684d222e5393fAB2843; //Chapps
 
     constructor() ERC721("Pocket Bone", "BONE") payable {}
     
@@ -1718,44 +1714,7 @@ contract PocketBone is ERC721, Ownable {
         require(total <= PRESALE_TOKENS, "All presale Pocket Bones are sold out");
         require(msg.value >= price*_count, "Value below price");
         _whiteListClaimed[msg.sender] += 1;
-        _safeMint(msg.sender, total + i);
-    }
-
-    function claim(uint256 _count) public {
-        require(isClaimActive, "Presale is not open");
-        require(_claimList[msg.sender], "You are not in claimList");
-        require(_count <= _claimable[msg.sender], "Incorrect amount to claim");
-        require(_claimListClaimed[msg.sender] + _count <= _claimable[msg.sender], "Purchase exceeds max allowed");
-        uint256 total = totalSupply();
-        require(total + _count <= MAX_TOKENS, "Max limit");
-        require(total <= MAX_TOKENS, "All Pocket Bones are sold out");
-
-        for (uint256 i = 0; i < _count; i++) {
-            _claimListClaimed[msg.sender] += 1;
-            _safeMint(msg.sender, total + i);
-        }
-    }
-
-    function addToClaimList(address[] calldata addresses, uint[] calldata _numberToClaim ) external onlyOwner {
-        for (uint256 i = 0; i < addresses.length; i++) {
-            require(addresses[i] != address(0), "Null address found");
-
-            _claimList[addresses[i]] = true;
-            _claimable[addresses[i]] = _numberToClaim[i];
-            _claimListClaimed[addresses[i]] > 0 ? _claimListClaimed[addresses[i]] : 0;
-        }
-    }
-
-    function addressInClaimlist(address addr) external view returns (bool) {
-        return _claimList[addr];
-    }
-
-    function removeFromClaimList(address[] calldata addresses) external onlyOwner {
-        for (uint256 i = 0; i < addresses.length; i++) {
-            require(addresses[i] != address(0), "Null address found");
-
-            _claimList[addresses[i]] = false;
-        }
+        _safeMint(msg.sender, total);
     }
 
     function addToWhiteList(address[] calldata addresses) external onlyOwner {
@@ -1783,10 +1742,6 @@ contract PocketBone is ERC721, Ownable {
         _setBaseURI(_baseURI);
     }
 
-    function flipClaimStatus() public onlyOwner {
-        isClaimActive = !isClaimActive;
-    }
-
     function flipPresaleStatus() public onlyOwner {
         isPresaleActive = !isPresaleActive;
     }
@@ -1798,7 +1753,7 @@ contract PocketBone is ERC721, Ownable {
     function withdrawAll() external onlyOwner {
         uint256 balance = address(this).balance;
         require(balance > 0);
-        uint256 withdrawal = (balance * 95) / 100;
+        uint256 withdrawal = (balance / 2);
         _withdraw(w1, withdrawal);
         _withdraw(w2, address(this).balance);
     }
