@@ -26,7 +26,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
 function MyApp({
   Component,
   pageProps
