@@ -25,13 +25,12 @@ const BoneApi = async(req,res) => {
 
 
   // IF YOU ARE USING INSTA REVEAL MODEL, UNCOMMENT THIS AND COMMENT THE TWO LINES BELOW
-   if(parseInt(query) < 10000) {
+   if(parseInt(query) < totalSupply) {
 
     let tokenName= `#${query}`
 
     const signatures = [137,883,1327,1781,2528,2763,3833,5568,5858,6585,6812,7154,8412]
     const trait = traits[parseInt(query)]
-    // const trait = traits[ Math.floor(Math.random() * 8888) ] // for testing on rinkeby 
 
     // CHECK OPENSEA METADATA STANDARD DOCUMENTATION https://docs.opensea.io/docs/metadata-standards
     let metadata = {}

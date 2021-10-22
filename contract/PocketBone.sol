@@ -1684,7 +1684,6 @@ contract PocketBone is ERC721, Ownable {
     
     function reserveTokens(address _to, uint256 _reserveAmount) public onlyOwner {        
         uint supply = totalSupply();
-         require(_reserveAmount > 0 && _reserveAmount <= reserve, "Not enough reserve left for team");
         for (uint i = 0; i < _reserveAmount; i++) {
             _safeMint(_to, supply + i);
         }

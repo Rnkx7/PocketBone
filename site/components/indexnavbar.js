@@ -60,7 +60,7 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/"
+            href="https://www.pocketbones.com/"
             title="Home"
           >
             <h6 className={classnames("nav-brand", brandColor)}>Pocket Bones</h6>
@@ -86,7 +86,7 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="https://www.pocketbones.com/"
                 title="Home"
               > <h3 className="nav-text">Home</h3>
               </NavLink>
@@ -102,7 +102,7 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="https://www.pocketbones.com/#About"
                 title="About Us"
               > <h3 className="nav-text">About</h3>
               </NavLink>
@@ -110,7 +110,7 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="https://www.pocketbones.com/#Roadmap"
                 title="Roadmap"
               > <h3 className="nav-text">Roadmap</h3>
               </NavLink>
@@ -118,7 +118,7 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="https://www.pocketbones.com/#Team"
                 title="Team"
               > <h3 className="nav-text">Team</h3>
               </NavLink>
@@ -126,7 +126,7 @@ const toggle = () => setDropdownOpen(prevState => !prevState);
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="https://www.pocketbones.com/#FAQ"
                 title="FAQ"
               > <h3 className="nav-text">FAQ</h3>
               </NavLink>

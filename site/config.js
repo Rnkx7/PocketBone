@@ -5,7 +5,7 @@
 export const INFURA_ADDRESS = "https://rinkeby.infura.io/v3/53316bd8102e4482849ca5f4b2be716c"
 
 // address contract belongs to
-export const ADDRESS = "0xEf7791F6e10f26Cd733E5de2f138f6828b35f05A"
+export const ADDRESS = "0x582b32DACaA8369eA663Cc309d465a790e688f57"
 
 export const ABI = 
 	//abi from etherscan

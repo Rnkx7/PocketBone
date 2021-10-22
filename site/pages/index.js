@@ -39,7 +39,7 @@ function MintPage() {
 
   const [totalSupply, setTotalSupply] = useState(0)
 
-  const [saleStarted, setSaleStarted] = useState(true)
+  const [saleStarted, setSaleStarted] = useState(false)
 
   const [nothingForSale, setNothingForSale] = useState(false)
 
@@ -103,7 +103,7 @@ function MintPage() {
     const whitelistBool = await boneContract.methods.addressInWhitelist(wallet).call() 
     setInWhiteList(whitelistBool)
 
-    setNothingForSale(presalebool && salebool)
+    setNothingForSale(!presalebool && !salebool)
 
     const totalSupply = await boneContract.methods.MAX_TOKENS().call() 
     setTotalSupply(totalSupply)
@@ -118,10 +118,7 @@ function MintPage() {
   
   async function mintBone(how_many_bones) {
     if (boneContract) {
- 
       const price = Number(bonePrice)  * how_many_bones 
-
-
 
       console.log({from: walletAddress, value: price})
       if(presale){
@@ -317,7 +314,7 @@ function MintPage() {
               <>
                 <h1 className="header" >You&apos;re not in the whitelist</h1>
                 <p className="text">Sorry, You cannot mint at this time.</p>
-                <Link activeClass="active" href="/" passHref={true}>
+                <Link activeClass="active" href="https://www.pocketbones.com/" passHref={true}>
                   <Button className="btn button mx-2 mb-1">Back to the home page</Button>
                 </Link>
               </>
@@ -326,7 +323,7 @@ function MintPage() {
               <>
                 <h1 className="header" >Thank you for minting!</h1>
                 <p className="text">Your Pocket Bone will arrive as soon as the transaction is processed</p>
-                <Link activeClass="active" href="/" passHref={true}>
+                <Link activeClass="active" href="https://www.pocketbones.com/" passHref={true}>
                   <Button className="btn button mx-2 mb-1">Back to the home page</Button>
                 </Link>
               </>
