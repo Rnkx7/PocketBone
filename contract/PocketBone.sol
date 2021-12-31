@@ -1667,11 +1667,11 @@ pragma abicoder v2;
 contract PocketBone is ERC721, Ownable {
 
     uint256 public constant MAX_TOKENS = 10000;
-    uint256 public constant PRESALE_TOKENS = 2500;
-    uint256 public constant MAX_TOKENS_PER_PURCHASE = 10;
+    uint256 public constant SHUTOFF = 2400;
+    uint256 public constant PRESALE_TOKENS = 100;
     uint256 public constant MAX_BY_MINT_WHITELIST = 1;
-    uint256 public constant price = 70 * 10**15; // .06 eth
-    uint public reserve = 125;
+    // uint256 public constant price = 60 * 10**15; // .06 eth
+    uint256 public constant price = 1 * 10**14; // .0001 eth
     bool public isSaleActive = false;
     bool public isPresaleActive = false;
     mapping(address => bool) private _whiteList;
@@ -1682,24 +1682,25 @@ contract PocketBone is ERC721, Ownable {
 
     constructor() ERC721("Pocket Bone", "BONE") payable {}
     
-    function reserveTokens(address _to, uint256 _reserveAmount) public onlyOwner {        
+    function giftTokens(address _to, uint256 _reserveAmount) public onlyOwner {        
         uint supply = totalSupply();
         for (uint i = 0; i < _reserveAmount; i++) {
             _safeMint(_to, supply + i);
         }
-        reserve = reserve - _reserveAmount;
     }
     
     function mintBone(uint256 _count) public payable {
         uint256 totalSupply = totalSupply();
 
         require(isSaleActive, "Sale is not active" );
-        require(_count > 0 && _count < MAX_TOKENS_PER_PURCHASE + 1, "Exceeds maximum tokens you can purchase in a single transaction");
         require(totalSupply + _count < MAX_TOKENS + 1, "Exceeds available Pocket Bones");
         require(msg.value >= price * _count, "Ether value sent is not correct");
         
         for(uint256 i = 0; i < _count; i++){
-                _safeMint(msg.sender, totalSupply + i);
+            _safeMint(msg.sender, totalSupply + i);
+            if(totalSupply + i == SHUTOFF){
+                isSaleActive = !isSaleActive;
+            }
         }
     }
 

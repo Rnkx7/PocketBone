@@ -15,44 +15,29 @@ import {
     Button
   } from "reactstrap";
 
-
-
 // core components
 function MintPage() {
 
-  // for sign out button
-
-
   // FOR WALLET
   const [signedIn, setSignedIn] = useState(false)
-
   const [walletAddress, setWalletAddress] = useState(null)
-
   const [inWhitelist, setInWhiteList] = useState(false)
 
   // FOR MINTING
   const [boneContract, setBoneContract] = useState(null)
 
   // INFO FROM SMART Contract
-
   const [tokensMinted, setTokensMinted] = useState(0)
-
   const [totalSupply, setTotalSupply] = useState(0)
-
   const [saleStarted, setSaleStarted] = useState(false)
-
   const [nothingForSale, setNothingForSale] = useState(false)
-
   const [presale, setPresale] = useState(false)
-
   const [bonePrice, setBonePrice] = useState(0)
-
   const [show, setShow] = useState(false)
  
 
   async function signIn() {
     if (typeof window.web3 !== 'undefined') {
-      // Use existing gateway
       window.web3 = new Web3(window.ethereum);
     } else {
       alert("No Ethereum interface injected into browser. Read-only access");
@@ -71,7 +56,6 @@ function MintPage() {
         callContractData(wallet)
   })
   .catch(function (error) {
-  // Handle error. Likely the user rejected the login
   console.error(error)
   })
   }
@@ -79,7 +63,6 @@ function MintPage() {
   useEffect(() => { 
     
     signIn()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   async function signOut() {
@@ -93,11 +76,9 @@ function MintPage() {
     setBoneContract(boneContract)
 
     const salebool = await boneContract.methods.isSaleActive().call() 
-    // console.log("saleisActive" , salebool)
     setSaleStarted(salebool)
 
     const presalebool = await boneContract.methods.isPresaleActive().call() 
-    // console.log("saleisActive" , salebool)
     setPresale(presalebool)
 
     const whitelistBool = await boneContract.methods.addressInWhitelist(wallet).call() 
@@ -113,7 +94,6 @@ function MintPage() {
 
     const tokensMinted = await boneContract.methods.totalSupply().call()
     setTokensMinted(tokensMinted)
-   
   }
   
   async function mintBone(how_many_bones) {

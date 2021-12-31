@@ -19,12 +19,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var bootstrap_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/scss/bootstrap.scss */ "./node_modules/bootstrap/scss/bootstrap.scss");
 /* harmony import */ var bootstrap_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_scss_paper_kit_scss_v_1_3_0__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/scss/paper-kit.scss?v=1.3.0 */ "./assets/scss/paper-kit.scss?v=1.3.0");
+/* harmony import */ var _assets_scss_paper_kit_scss_v_1_3_0__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../assets/scss/paper-kit.scss?v=1.3.0 */ "./assets/scss/paper-kit.scss?v=1.3.0");
 /* harmony import */ var _assets_scss_paper_kit_scss_v_1_3_0__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_paper_kit_scss_v_1_3_0__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/globals.css */ "./styles/globals.css");
 /* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\Robert\\Documents\\Code\\nft\\PocketBone\\site\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\rober\\Documents\\code\\PocketBone\\site\\pages\\_app.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
