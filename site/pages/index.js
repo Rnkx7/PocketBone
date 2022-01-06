@@ -4,6 +4,7 @@ import { ADDRESS, ABI } from "../config.js";
 import IndexNavbar from "../components/indexnavbar";
 import Head from "next/head";
 import Link from "next/link";
+import { fakeWhitelist } from "../components/fakewhitelist.js";
 
 // reactstrap components
 import { Container, Row, Col, Card, CardBody, Button } from "reactstrap";
@@ -26,7 +27,8 @@ function MintPage() {
   const [presale, setPresale] = useState(false);
   const [bonePrice, setBonePrice] = useState(0);
   const [show, setShow] = useState(false);
-  const [fakePresale, setFakePresale] = useState(false);
+  const [fakePresale, setFakePresale] = useState(true);
+  const [inFakeWhitelist, setinFakeWhitelist] = useState(false);
 
   async function signIn() {
     if (typeof window.web3 !== "undefined") {
@@ -92,6 +94,10 @@ function MintPage() {
 
     const tokensMinted = await boneContract.methods.totalSupply().call();
     setTokensMinted(tokensMinted);
+
+    if (fakeWhitelist.includes(wallet)) {
+      setinFakeWhitelist(true);
+    }
   }
 
   async function mintBone(how_many_bones) {
@@ -190,7 +196,9 @@ function MintPage() {
         <div className="" />
         <IndexNavbar />
         <Container className="text-center mt-auto mb-auto">
-          {((!show && !presale) || (!show && presale && inWhitelist) || (fakePresale && !show))  && (
+          {((!show && !presale) ||
+            (!show && presale && inWhitelist) ||
+            (fakePresale && !show)) && (
             <>
               <Row>
                 <Col className="ml-auto mr-auto mt-5 pt-5" md="12">
@@ -224,35 +232,6 @@ function MintPage() {
               </Row>
             </>
           )}
-          {/* {((!show && !presale) || (!show && presale && inWhitelist)) && (
-            <Row>
-              <Col className="ml-auto mr-auto mb-4" md="12">
-                <p className="text">0.07 ETH per Pocket Bones</p>
-              </Col>
-            </Row>
-          )}
-          {((!show && !presale) || (!show && presale && inWhitelist)) && (
-            <Row>
-              <Col className="ml-auto mr-auto mb-5" md="5">
-                <div className="outline mb-3">
-                  <h6 className="white text bold">Total Minted:</h6>
-                  <h4 className="text  mx-0 px-0 my-0 py-0 bold">
-                    <>{tokensMinted}</> / <>10,000</>
-                  </h4>
-                </div>
-
-                {!signedIn ? (
-                  <Button onClick={signIn} className="btn metamask-btn">
-                    Connect Wallet
-                  </Button>
-                ) : (
-                  <Button onClick={signOut} className="btn mx-2 metamask-btn">
-                    Sign out
-                  </Button>
-                )}
-              </Col>
-            </Row>
-          )} */}
           {!presale && !show && !fakePresale && (
             <>
               <Row>
@@ -349,54 +328,6 @@ function MintPage() {
               </Row>
             </>
           )}
-          {/* {!presale && !show && !fakePresale && (
-            <Row>
-              <Col className="ml-auto " md="6">
-                <Card>
-                  <CardBody>
-                    <div className="flex auth my-8 font-bold  justify-center items-center vw2">
-                      <h1 className="text white bold">6 PACK</h1>
-                      <p className="text">0.42 ETH</p>
-                      {saleStarted ? (
-                        <Button
-                          onClick={() => mintBone(6)}
-                          className="btn mx-2 mb-1 button"
-                        >
-                          Mint 6 pack
-                        </Button>
-                      ) : (
-                        <Button className="btn button mx-2 mb-1 " disabled>
-                          The Sale isn&apos;t active yet
-                        </Button>
-                      )}
-                    </div>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col className=" mr-auto" md="6">
-                <Card>
-                  <CardBody>
-                    <div className="flex auth my-8 font-bold  justify-center items-center vw2">
-                      <h1 className="text white bold">10 PACK</h1>
-                      <p className="text">0.7 ETH</p>
-                      {saleStarted ? (
-                        <Button
-                          onClick={() => mintBone(10)}
-                          className="btn mx-2 mb-1 button"
-                        >
-                          Mint 10 pack
-                        </Button>
-                      ) : (
-                        <Button className="btn button mx-2 mb-1 " disabled>
-                          The Sale isn&apos;t active yet
-                        </Button>
-                      )}
-                    </div>
-                  </CardBody>
-                </Card>
-              </Col>
-            </Row>
-          )} */}
           {presale && !show && inWhitelist && !fakePresale && (
             //whitelist presale in whitelist
             <Row>
@@ -451,12 +382,24 @@ function MintPage() {
                         <h1 className="text white bold">1 PACK</h1>
                         <p className="text">0.07 ETH</p>
                         {saleStarted ? (
-                          <Button
-                            onClick={() => mintBone(1)}
-                            className="btn mx-2 mb-1 button"
-                          >
-                            Mint 1 pack
-                          </Button>
+                          <>
+                            {inFakeWhitelist ? (
+                              <Button
+                                onClick={() => mintBone(1)}
+                                className="btn mx-2 mb-1 button"
+                              >
+                                Mint 1 pack
+                              </Button>
+                            ) : (
+                              <Button
+                                onClick={() => mintBone(1)}
+                                className="btn mx-2 mb-1 button"
+                                disabled
+                              >
+                                You are not in the presale list
+                              </Button>
+                            )}
+                          </>
                         ) : (
                           <Button className="btn button mx-2 mb-1 " disabled>
                             The presale isn&apos;t active yet
@@ -473,12 +416,24 @@ function MintPage() {
                         <h1 className="text white bold">3 PACK</h1>
                         <p className="text">0.21 ETH</p>
                         {saleStarted ? (
-                          <Button
-                            onClick={() => mintBone(3)}
-                            className="btn mx-2 mb-1 button"
-                          >
-                            Mint 3 pack
-                          </Button>
+                          <>
+                            {inFakeWhitelist ? (
+                              <Button
+                                onClick={() => mintBone(3)}
+                                className="btn mx-2 mb-1 button"
+                              >
+                                Mint 3 pack
+                              </Button>
+                            ) : (
+                              <Button
+                                onClick={() => mintBone(3)}
+                                className="btn mx-2 mb-1 button"
+                                disabled
+                              >
+                                You are not in the presale list
+                              </Button>
+                            )}
+                          </>
                         ) : (
                           <Button className="btn button mx-2 mb-1 " disabled>
                             The presale isn&apos;t active yet
