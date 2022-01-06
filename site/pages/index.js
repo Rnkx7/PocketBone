@@ -27,7 +27,7 @@ function MintPage() {
   const [presale, setPresale] = useState(false);
   const [bonePrice, setBonePrice] = useState(0);
   const [show, setShow] = useState(false);
-  const [fakePresale, setFakePresale] = useState(true);
+  const [fakePresale, setFakePresale] = useState(false);
   const [inFakeWhitelist, setinFakeWhitelist] = useState(false);
 
   async function signIn() {
