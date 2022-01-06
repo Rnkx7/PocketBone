@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9903.png",
+    "tokenId": 9903,
+    "name": "Pocket Bones 9903",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Gold Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Pearls"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Neck Bandana"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Double Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Nose Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored Bloody"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Plunger"
+        }
+    ]
+}

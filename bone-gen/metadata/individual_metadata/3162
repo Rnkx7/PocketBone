@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3162.png",
+    "tokenId": 3162,
+    "name": "Pocket Bones 3162",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Vampire Cloak"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        }
+    ]
+}

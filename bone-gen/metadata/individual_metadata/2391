@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2391.png",
+    "tokenId": 2391,
+    "name": "Pocket Bones 2391",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "PB Skateboard"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Snot"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Scruffy Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        }
+    ]
+}

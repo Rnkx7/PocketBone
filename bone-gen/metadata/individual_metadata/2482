@@ -1,0 +1,23 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2482.png",
+    "tokenId": 2482,
+    "name": "Pocket Bones 2482",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        }
+    ]
+}

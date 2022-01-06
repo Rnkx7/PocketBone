@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3015.png",
+    "tokenId": 3015,
+    "name": "Pocket Bones 3015",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Checkered Waistcoat"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Rave Goggles"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Short Horns"
+        }
+    ]
+}

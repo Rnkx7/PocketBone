@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/540.png",
+    "tokenId": 540,
+    "name": "Pocket Bones 540",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Diamond"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Pearls"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Grey Sweater"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Snot"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Joint"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Coin Purse"
+        }
+    ]
+}

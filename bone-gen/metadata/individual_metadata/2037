@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2037.png",
+    "tokenId": 2037,
+    "name": "Pocket Bones 2037",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Half-human"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Blue Flame Shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Dribble"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Cowboy Hat"
+        }
+    ]
+}

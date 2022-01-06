@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3771.png",
+    "tokenId": 3771,
+    "name": "Pocket Bones 3771",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Chainsaw"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Shutter Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Cowboy Hat"
+        }
+    ]
+}

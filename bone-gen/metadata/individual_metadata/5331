@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5331.png",
+    "tokenId": 5331,
+    "name": "Pocket Bones 5331",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Leather Jacket"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Studs"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Stitches"
+        }
+    ]
+}

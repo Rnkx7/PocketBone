@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9797.png",
+    "tokenId": 9797,
+    "name": "Pocket Bones 9797",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Gold"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Tired"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Melted Candle"
+        }
+    ]
+}

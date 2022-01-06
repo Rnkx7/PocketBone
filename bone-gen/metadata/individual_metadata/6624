@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6624.png",
+    "tokenId": 6624,
+    "name": "Pocket Bones 6624",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Angel Wings"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Half-human"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Vest"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Face Bandana"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Tired"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Flat Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Shuriken"
+        }
+    ]
+}

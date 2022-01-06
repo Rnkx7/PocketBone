@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7593.png",
+    "tokenId": 7593,
+    "name": "Pocket Bones 7593",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Pearls"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Shell Suit"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Nose Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Coin Purse"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6876.png",
+    "tokenId": 6876,
+    "name": "Pocket Bones 6876",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Emerald"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Uniform"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Flame"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Ski Goggles"
+        }
+    ]
+}

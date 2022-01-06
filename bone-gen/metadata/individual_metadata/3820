@@ -1,0 +1,47 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3820.png",
+    "tokenId": 3820,
+    "name": "Pocket Bones 3820",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "NFT Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Ripped T-shirt"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Pipe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Scar"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Eye Mask"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Knife Stab"
+        }
+    ]
+}

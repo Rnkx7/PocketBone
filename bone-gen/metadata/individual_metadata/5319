@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5319.png",
+    "tokenId": 5319,
+    "name": "Pocket Bones 5319",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Snot"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Gag Cloth"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored Bloody"
+        }
+    ]
+}

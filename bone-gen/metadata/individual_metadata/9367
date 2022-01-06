@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9367.png",
+    "tokenId": 9367,
+    "name": "Pocket Bones 9367",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Bead Necklace"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6535.png",
+    "tokenId": 6535,
+    "name": "Pocket Bones 6535",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Spear"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Hazmat Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Face Tats"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Nose Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Scar"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Glass Visor"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Forward PB Cap"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1306.png",
+    "tokenId": 1306,
+    "name": "Pocket Bones 1306",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Inmate Jumpsuit"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Tombstone"
+        }
+    ]
+}

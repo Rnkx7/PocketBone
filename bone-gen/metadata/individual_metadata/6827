@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6827.png",
+    "tokenId": 6827,
+    "name": "Pocket Bones 6827",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Stacked Gold Chains"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Blue Flame Shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Long Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Head Mirror"
+        }
+    ]
+}

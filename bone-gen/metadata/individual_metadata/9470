@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9470.png",
+    "tokenId": 9470,
+    "name": "Pocket Bones 9470",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Fur & Horns"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Yellow Beanie"
+        }
+    ]
+}

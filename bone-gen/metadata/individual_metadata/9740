@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9740.png",
+    "tokenId": 9740,
+    "name": "Pocket Bones 9740",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Restraint Jacket"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Chill"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Cowboy Hat"
+        }
+    ]
+}

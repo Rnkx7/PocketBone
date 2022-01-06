@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7495.png",
+    "tokenId": 7495,
+    "name": "Pocket Bones 7495",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Restraint Jacket"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Plunger"
+        }
+    ]
+}

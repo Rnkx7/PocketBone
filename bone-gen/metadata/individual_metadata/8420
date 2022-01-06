@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8420.png",
+    "tokenId": 8420,
+    "name": "Pocket Bones 8420",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Transparent Raincoat"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Electric Wires"
+        }
+    ]
+}

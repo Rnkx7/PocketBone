@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8071.png",
+    "tokenId": 8071,
+    "name": "Pocket Bones 8071",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Scythe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Mafia Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Face Tats"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        }
+    ]
+}

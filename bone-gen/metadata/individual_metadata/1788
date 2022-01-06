@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1788.png",
+    "tokenId": 1788,
+    "name": "Pocket Bones 1788",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Stacked Diamond Chains"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Love Heart"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Electric Wires"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1907.png",
+    "tokenId": 1907,
+    "name": "Pocket Bones 1907",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Blue Flame Shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Stitches"
+        }
+    ]
+}

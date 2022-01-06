@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5560.png",
+    "tokenId": 5560,
+    "name": "Pocket Bones 5560",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Shiny Necklace"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Fur & Horns"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Bucket Hat"
+        }
+    ]
+}

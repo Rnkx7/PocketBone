@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8517.png",
+    "tokenId": 8517,
+    "name": "Pocket Bones 8517",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Brown Hoodie"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Scruffy Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Brainwash"
+        }
+    ]
+}

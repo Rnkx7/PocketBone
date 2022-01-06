@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1104.png",
+    "tokenId": 1104,
+    "name": "Pocket Bones 1104",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Skateboard"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Pearls"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Flame Shirt"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Respirator"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Shuriken"
+        }
+    ]
+}

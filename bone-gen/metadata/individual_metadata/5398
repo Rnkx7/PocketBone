@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5398.png",
+    "tokenId": 5398,
+    "name": "Pocket Bones 5398",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Caveman Tunic"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "3D Glasses"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Messy Hair"
+        }
+    ]
+}

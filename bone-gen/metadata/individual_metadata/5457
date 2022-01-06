@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5457.png",
+    "tokenId": 5457,
+    "name": "Pocket Bones 5457",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Gold Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Caveman Tunic"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Rose"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        }
+    ]
+}

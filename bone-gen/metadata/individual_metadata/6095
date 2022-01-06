@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6095.png",
+    "tokenId": 6095,
+    "name": "Pocket Bones 6095",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Ripped T-shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Rose"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Crying"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Flame Hair"
+        }
+    ]
+}

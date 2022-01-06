@@ -1,0 +1,47 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3000.png",
+    "tokenId": 3000,
+    "name": "Pocket Bones 3000",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Scythe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Bead Necklace"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Ghillie Suit"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Goggles"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Sweatband"
+        }
+    ]
+}

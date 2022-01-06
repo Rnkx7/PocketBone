@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9839.png",
+    "tokenId": 9839,
+    "name": "Pocket Bones 9839",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Combat Knife"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Loose Eyeball"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Coin Purse"
+        }
+    ]
+}

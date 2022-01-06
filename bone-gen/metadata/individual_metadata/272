@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/272.png",
+    "tokenId": 272,
+    "name": "Pocket Bones 272",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Blue Flame Shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Earrings"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Crying"
+        }
+    ]
+}

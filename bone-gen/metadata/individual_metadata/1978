@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1978.png",
+    "tokenId": 1978,
+    "name": "Pocket Bones 1978",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Fur & Horns"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Dribble"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Spy Glasses"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Electric Wires"
+        }
+    ]
+}

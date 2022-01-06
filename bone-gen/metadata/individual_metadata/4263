@@ -1,0 +1,47 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/4263.png",
+    "tokenId": 4263,
+    "name": "Pocket Bones 4263",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Emerald"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Gold Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Fur & Horns"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Apple Juice"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Laser Optic"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Coin Purse"
+        }
+    ]
+}

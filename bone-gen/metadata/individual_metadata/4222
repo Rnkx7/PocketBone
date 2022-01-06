@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/4222.png",
+    "tokenId": 4222,
+    "name": "Pocket Bones 4222",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Joint"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Crystal Dagger"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3807.png",
+    "tokenId": 3807,
+    "name": "Pocket Bones 3807",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Black Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Snot"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        }
+    ]
+}

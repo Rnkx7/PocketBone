@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1239.png",
+    "tokenId": 1239,
+    "name": "Pocket Bones 1239",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Fur & Horns"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lollipop"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored Bloody"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Overhead Goggles"
+        }
+    ]
+}

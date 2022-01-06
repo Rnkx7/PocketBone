@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8733.png",
+    "tokenId": 8733,
+    "name": "Pocket Bones 8733",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "PB Skateboard"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Pearls"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Mafia Suit"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Rose"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Mohawk"
+        }
+    ]
+}

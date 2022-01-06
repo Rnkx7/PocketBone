@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/982.png",
+    "tokenId": 982,
+    "name": "Pocket Bones 982",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Fire Pitchfork"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Uniform"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Double Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Bloody Mouth"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Tired"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Flat Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Head Mirror"
+        }
+    ]
+}

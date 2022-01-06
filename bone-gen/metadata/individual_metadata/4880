@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/4880.png",
+    "tokenId": 4880,
+    "name": "Pocket Bones 4880",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Stacked Gold Chains"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Vest"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nosebleed"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Sweatband"
+        }
+    ]
+}

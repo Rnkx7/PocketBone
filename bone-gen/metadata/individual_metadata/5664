@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5664.png",
+    "tokenId": 5664,
+    "name": "Pocket Bones 5664",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Bandolier"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "War Horn"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Army Beret"
+        }
+    ]
+}

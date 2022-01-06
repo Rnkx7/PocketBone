@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1755.png",
+    "tokenId": 1755,
+    "name": "Pocket Bones 1755",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Gold Chain"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Diamond Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Nose Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3925.png",
+    "tokenId": 3925,
+    "name": "Pocket Bones 3925",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Ripped T-shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Dribble"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Top Knot Bun"
+        }
+    ]
+}

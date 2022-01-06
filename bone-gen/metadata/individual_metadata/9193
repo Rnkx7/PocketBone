@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9193.png",
+    "tokenId": 9193,
+    "name": "Pocket Bones 9193",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Hawaiian Shirt"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Loose Eyeball"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Snorkel"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Coin Purse"
+        }
+    ]
+}

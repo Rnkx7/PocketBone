@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/592.png",
+    "tokenId": 592,
+    "name": "Pocket Bones 592",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Wheat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Pirate Hat"
+        }
+    ]
+}

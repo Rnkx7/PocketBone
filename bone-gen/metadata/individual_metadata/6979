@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6979.png",
+    "tokenId": 6979,
+    "name": "Pocket Bones 6979",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Bloody Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Fur & Horns"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Combat Knife"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "VR Headset"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Brain"
+        }
+    ]
+}

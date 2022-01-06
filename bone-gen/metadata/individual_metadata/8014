@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8014.png",
+    "tokenId": 8014,
+    "name": "Pocket Bones 8014",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Checkered Waistcoat"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Muzzle Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Love Heart"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Cyberpunk Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Head Mirror"
+        }
+    ]
+}

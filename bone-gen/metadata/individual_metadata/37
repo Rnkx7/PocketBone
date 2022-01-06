@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/37.png",
+    "tokenId": 37,
+    "name": "Pocket Bones 37",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shotgun"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Scarf"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Tear Drop Tattoo"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        }
+    ]
+}

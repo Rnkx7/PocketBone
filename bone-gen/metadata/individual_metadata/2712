@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2712.png",
+    "tokenId": 2712,
+    "name": "Pocket Bones 2712",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Half-human"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Bandolier"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Snot"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Combat Knife"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Kings Crown"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2316.png",
+    "tokenId": 2316,
+    "name": "Pocket Bones 2316",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Frozen"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Napoleon Pirate Jacket"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Rose"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Flat Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Gaming Headset"
+        }
+    ]
+}

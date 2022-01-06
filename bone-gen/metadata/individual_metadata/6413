@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6413.png",
+    "tokenId": 6413,
+    "name": "Pocket Bones 6413",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Brown Hoodie"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Respirator"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/389.png",
+    "tokenId": 389,
+    "name": "Pocket Bones 389",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Dribble"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Chill"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Top Knot Bun"
+        }
+    ]
+}

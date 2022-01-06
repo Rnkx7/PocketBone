@@ -1,0 +1,23 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/858.png",
+    "tokenId": 858,
+    "name": "Pocket Bones 858",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Wheat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Evil"
+        }
+    ]
+}

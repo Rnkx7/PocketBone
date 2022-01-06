@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5684.png",
+    "tokenId": 5684,
+    "name": "Pocket Bones 5684",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Magic Staff"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Jacket"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Cigar"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Glass Visor"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Pirate Hat"
+        }
+    ]
+}

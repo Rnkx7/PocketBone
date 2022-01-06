@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/223.png",
+    "tokenId": 223,
+    "name": "Pocket Bones 223",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Face Bandana"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Transparent"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9958.png",
+    "tokenId": 9958,
+    "name": "Pocket Bones 9958",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Scarf"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Studs"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/550.png",
+    "tokenId": 550,
+    "name": "Pocket Bones 550",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Gold"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Jacket"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        }
+    ]
+}

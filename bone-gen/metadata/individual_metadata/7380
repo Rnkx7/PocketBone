@@ -1,0 +1,47 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7380.png",
+    "tokenId": 7380,
+    "name": "Pocket Bones 7380",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Chainsaw"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Diamond Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Vest"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Pipe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Sport Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Bandage"
+        }
+    ]
+}

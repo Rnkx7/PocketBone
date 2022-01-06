@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2392.png",
+    "tokenId": 2392,
+    "name": "Pocket Bones 2392",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "British Farmer Zip-up"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nosebleed"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Nose Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Evil"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Eye Patch"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Brainwash"
+        }
+    ]
+}

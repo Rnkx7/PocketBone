@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7643.png",
+    "tokenId": 7643,
+    "name": "Pocket Bones 7643",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Uniform"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Flat Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Electric Wires"
+        }
+    ]
+}

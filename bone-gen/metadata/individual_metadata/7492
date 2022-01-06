@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7492.png",
+    "tokenId": 7492,
+    "name": "Pocket Bones 7492",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Magic Staff"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Inmate Jumpsuit"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Long Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Stitches"
+        }
+    ]
+}

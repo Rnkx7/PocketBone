@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2039.png",
+    "tokenId": 2039,
+    "name": "Pocket Bones 2039",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Gold Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Neck Bandana"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Scar"
+        }
+    ]
+}

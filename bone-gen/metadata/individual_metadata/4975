@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/4975.png",
+    "tokenId": 4975,
+    "name": "Pocket Bones 4975",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Red Dress"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Muzzle Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Red Glowing"
+        }
+    ]
+}

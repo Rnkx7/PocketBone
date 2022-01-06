@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6530.png",
+    "tokenId": 6530,
+    "name": "Pocket Bones 6530",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Chainsaw"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Stacked Gold Chains"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "War Horn"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Scar"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Cowboy Hat"
+        }
+    ]
+}

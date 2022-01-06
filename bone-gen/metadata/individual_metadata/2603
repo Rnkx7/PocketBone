@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2603.png",
+    "tokenId": 2603,
+    "name": "Pocket Bones 2603",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Scarf"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Bubble-gum"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Gold Laurel Leaf"
+        }
+    ]
+}

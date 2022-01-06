@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/34.png",
+    "tokenId": 34,
+    "name": "Pocket Bones 34",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nose Plaster"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Loose Eyeball"
+        }
+    ]
+}

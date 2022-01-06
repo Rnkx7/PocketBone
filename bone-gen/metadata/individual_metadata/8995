@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8995.png",
+    "tokenId": 8995,
+    "name": "Pocket Bones 8995",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Respirator"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Snorkel"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Crystal Dagger"
+        }
+    ]
+}

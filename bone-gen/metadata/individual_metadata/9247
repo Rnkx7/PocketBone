@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9247.png",
+    "tokenId": 9247,
+    "name": "Pocket Bones 9247",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Magic Staff"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Inmate Jumpsuit"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Scruffy Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Top Knot Bun"
+        }
+    ]
+}

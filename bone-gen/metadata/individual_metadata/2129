@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2129.png",
+    "tokenId": 2129,
+    "name": "Pocket Bones 2129",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Scarf"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Muzzle Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Melted Candle"
+        }
+    ]
+}

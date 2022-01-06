@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8821.png",
+    "tokenId": 8821,
+    "name": "Pocket Bones 8821",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Shell Suit"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Muzzle Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Devil Horns"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1570.png",
+    "tokenId": 1570,
+    "name": "Pocket Bones 1570",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Tux"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lick"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Purple Tints"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Mad Scientist Hair"
+        }
+    ]
+}

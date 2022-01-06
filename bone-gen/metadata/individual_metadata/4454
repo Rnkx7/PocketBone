@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/4454.png",
+    "tokenId": 4454,
+    "name": "Pocket Bones 4454",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Livery",
+            "value": "BONES"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Checkered Waistcoat"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Wheat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bloody"
+        }
+    ]
+}

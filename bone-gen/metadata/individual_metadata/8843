@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8843.png",
+    "tokenId": 8843,
+    "name": "Pocket Bones 8843",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Gold Chain"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Pipe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Loose Eyeball"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Electric Wires"
+        }
+    ]
+}

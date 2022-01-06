@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7246.png",
+    "tokenId": 7246,
+    "name": "Pocket Bones 7246",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Chainsaw"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Transparent Raincoat"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nosebleed"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Combat Knife"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        }
+    ]
+}

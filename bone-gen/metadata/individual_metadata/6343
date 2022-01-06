@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6343.png",
+    "tokenId": 6343,
+    "name": "Pocket Bones 6343",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Skateboard"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Mafia Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Diamond Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Surgical Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Messy Hair"
+        }
+    ]
+}

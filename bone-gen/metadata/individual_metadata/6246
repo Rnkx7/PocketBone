@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6246.png",
+    "tokenId": 6246,
+    "name": "Pocket Bones 6246",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Checkered Waistcoat"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nosebleed"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Long Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        }
+    ]
+}

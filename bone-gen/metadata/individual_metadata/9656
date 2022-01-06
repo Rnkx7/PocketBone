@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9656.png",
+    "tokenId": 9656,
+    "name": "Pocket Bones 9656",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Boxing Gloves"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nosebleed"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "War Horn"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "X"
+        }
+    ]
+}

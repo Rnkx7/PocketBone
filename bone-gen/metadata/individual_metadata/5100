@@ -1,0 +1,23 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5100.png",
+    "tokenId": 5100,
+    "name": "Pocket Bones 5100",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Ghillie Suit"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bloody"
+        }
+    ]
+}

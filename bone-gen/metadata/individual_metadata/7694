@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/7694.png",
+    "tokenId": 7694,
+    "name": "Pocket Bones 7694",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Uniform"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Wheat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Chill"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Mohawk"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/4949.png",
+    "tokenId": 4949,
+    "name": "Pocket Bones 4949",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Magic Staff"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "NFT Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Black Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Face Tats"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Surgical Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Evil"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Brainwash"
+        }
+    ]
+}

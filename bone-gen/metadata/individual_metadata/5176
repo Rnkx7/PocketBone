@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5176.png",
+    "tokenId": 5176,
+    "name": "Pocket Bones 5176",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Restraint Jacket"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Long Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Conical Hat"
+        }
+    ]
+}

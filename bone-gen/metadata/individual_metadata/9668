@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9668.png",
+    "tokenId": 9668,
+    "name": "Pocket Bones 9668",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Fire Pitchfork"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "NFT Chain"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Nosebleed"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "War Horn"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Mohawk"
+        }
+    ]
+}

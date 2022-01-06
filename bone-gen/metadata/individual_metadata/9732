@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9732.png",
+    "tokenId": 9732,
+    "name": "Pocket Bones 9732",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "NFT Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Armed Robot"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Loose Eyeball"
+        }
+    ]
+}

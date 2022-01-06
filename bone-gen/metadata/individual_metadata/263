@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/263.png",
+    "tokenId": 263,
+    "name": "Pocket Bones 263",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Diamond Chain"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Hazmat Suit"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Pipe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Queens Crown"
+        }
+    ]
+}

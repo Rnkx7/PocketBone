@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6331.png",
+    "tokenId": 6331,
+    "name": "Pocket Bones 6331",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Spear"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Cross"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Armed Robot"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Shiny Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Pirate Hat"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5932.png",
+    "tokenId": 5932,
+    "name": "Pocket Bones 5932",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Bead Necklace"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Restraint Jacket"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Loose Eyeball"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Sport Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Queens Crown"
+        }
+    ]
+}

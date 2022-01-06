@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3307.png",
+    "tokenId": 3307,
+    "name": "Pocket Bones 3307",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Vampire Cloak"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Long Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Eye Mask"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Cowboy Hat"
+        }
+    ]
+}

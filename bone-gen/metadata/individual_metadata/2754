@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2754.png",
+    "tokenId": 2754,
+    "name": "Pocket Bones 2754",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Shovel"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Bead Necklace"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Crying"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "3D Glasses"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Cyberpunk"
+        }
+    ]
+}

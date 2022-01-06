@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5978.png",
+    "tokenId": 5978,
+    "name": "Pocket Bones 5978",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Devil Wings"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Hoodie with Puffa"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Shiny Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Knife Stab"
+        }
+    ]
+}

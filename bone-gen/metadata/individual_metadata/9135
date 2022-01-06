@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9135.png",
+    "tokenId": 9135,
+    "name": "Pocket Bones 9135",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Shell Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Gold Teeth"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Respirator"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Evil"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Melted Candle"
+        }
+    ]
+}

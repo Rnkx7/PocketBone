@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6713.png",
+    "tokenId": 6713,
+    "name": "Pocket Bones 6713",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Skateboard"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Frozen"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Brown Hoodie"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Scruffy Beard"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Messy Hair"
+        }
+    ]
+}

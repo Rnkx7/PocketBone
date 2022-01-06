@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9832.png",
+    "tokenId": 9832,
+    "name": "Pocket Bones 9832",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Shiny Necklace"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Shell Suit"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Tear Drop Tattoo"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bloody"
+        }
+    ]
+}

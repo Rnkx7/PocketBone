@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3423.png",
+    "tokenId": 3423,
+    "name": "Pocket Bones 3423",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Bloody Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Gold"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Hoodie with Puffa"
+        },
+        {
+            "trait_type": "Headwear Below",
+            "value": "Assassination"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Long Tongue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Tired"
+        }
+    ]
+}

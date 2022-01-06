@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6280.png",
+    "tokenId": 6280,
+    "name": "Pocket Bones 6280",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Spear"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Bead Necklace"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Jacket"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bloody"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Spy Glasses"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Gunshot"
+        }
+    ]
+}

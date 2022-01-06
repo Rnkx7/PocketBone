@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3607.png",
+    "tokenId": 3607,
+    "name": "Pocket Bones 3607",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "PB Skateboard"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Transparent Raincoat"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Face Bandana"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Evil"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Stitches"
+        }
+    ]
+}

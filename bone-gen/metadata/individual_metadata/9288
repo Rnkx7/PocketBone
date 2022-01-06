@@ -1,0 +1,27 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9288.png",
+    "tokenId": 9288,
+    "name": "Pocket Bones 9288",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sand"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Army Vest"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Pipe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        }
+    ]
+}

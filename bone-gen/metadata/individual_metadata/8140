@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8140.png",
+    "tokenId": 8140,
+    "name": "Pocket Bones 8140",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Bloody Axe"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Blue Flame Shirt"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Bloody Mouth"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Spooked"
+        }
+    ]
+}

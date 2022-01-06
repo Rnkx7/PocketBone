@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9305.png",
+    "tokenId": 9305,
+    "name": "Pocket Bones 9305",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Boxing Gloves"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Lollipop"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Chill"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Sport Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Tombstone"
+        }
+    ]
+}

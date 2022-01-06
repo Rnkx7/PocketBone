@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6092.png",
+    "tokenId": 6092,
+    "name": "Pocket Bones 6092",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Arrows"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Shiny Necklace"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Double Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Combat Knife"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Happy"
+        }
+    ]
+}

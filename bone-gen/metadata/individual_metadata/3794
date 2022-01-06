@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/3794.png",
+    "tokenId": 3794,
+    "name": "Pocket Bones 3794",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Bandolier"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Snot"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Wheat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored Bloody"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Plunger"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/9200.png",
+    "tokenId": 9200,
+    "name": "Pocket Bones 9200",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Fire Pitchfork"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Zombie"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Ripped T-shirt"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Rose"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Glass Visor"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Shuriken"
+        }
+    ]
+}

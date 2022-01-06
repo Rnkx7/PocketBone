@@ -1,0 +1,47 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/694.png",
+    "tokenId": 694,
+    "name": "Pocket Bones 694",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Backbling",
+            "value": "Fire Pitchfork"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Shiny Necklace"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Jacket"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Gold Studs"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Tear Drop Tattoo"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Face Bandana"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Bored Bloody"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Mohawk"
+        }
+    ]
+}

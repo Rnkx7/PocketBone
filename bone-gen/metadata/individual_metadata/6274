@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6274.png",
+    "tokenId": 6274,
+    "name": "Pocket Bones 6274",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Frozen"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Tear Drop Tattoo"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Dribble"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Swirl"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Bandage"
+        }
+    ]
+}

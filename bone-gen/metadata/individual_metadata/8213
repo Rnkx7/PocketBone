@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8213.png",
+    "tokenId": 8213,
+    "name": "Pocket Bones 8213",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Transparent Raincoat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Crying"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Spiked"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Head Mirror"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/406.png",
+    "tokenId": 406,
+    "name": "Pocket Bones 406",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue-Grey"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Stacked Gold Chains"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Biker Jacket"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Gag Cloth"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Tired"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Ski Goggles"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/8314.png",
+    "tokenId": 8314,
+    "name": "Pocket Bones 8314",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Khaki"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Drowned"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Black Suit"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Double Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Joint"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Transparent"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Gunshot"
+        }
+    ]
+}

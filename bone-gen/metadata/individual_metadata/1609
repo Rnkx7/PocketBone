@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/1609.png",
+    "tokenId": 1609,
+    "name": "Pocket Bones 1609",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Half-human"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Diamond Chain"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Silver Studs"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Pipe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Love Heart"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Rave Goggles"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Bucket Hat"
+        }
+    ]
+}

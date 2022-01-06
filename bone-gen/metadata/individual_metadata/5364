@@ -1,0 +1,39 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5364.png",
+    "tokenId": 5364,
+    "name": "Pocket Bones 5364",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Caveman Tunic"
+        },
+        {
+            "trait_type": "Earring",
+            "value": "Double Diamond Earrings"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "War Horn"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Love Heart"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Flat Shades"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Mad Scientist Hair"
+        }
+    ]
+}

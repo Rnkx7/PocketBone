@@ -1,0 +1,31 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/5055.png",
+    "tokenId": 5055,
+    "name": "Pocket Bones 5055",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Rose"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "Purple Tints"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Knife Stab"
+        }
+    ]
+}

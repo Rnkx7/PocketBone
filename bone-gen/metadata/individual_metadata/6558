@@ -1,0 +1,35 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/6558.png",
+    "tokenId": 6558,
+    "name": "Pocket Bones 6558",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Buried"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Hoodie with Puffa"
+        },
+        {
+            "trait_type": "Facewear Accessories",
+            "value": "Tear Drop Tattoo"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "PB Mask"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Upset"
+        },
+        {
+            "trait_type": "Headwear Above",
+            "value": "Short Horns"
+        }
+    ]
+}

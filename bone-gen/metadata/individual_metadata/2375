@@ -1,0 +1,23 @@
+{
+    "image": "https://ipfs.io/ipfs/QmNn5K5DvFDAGHvBZmJKjAcHYBazQ1TedCRRSVi3Crr281/2375.png",
+    "tokenId": 2375,
+    "name": "Pocket Bones 2375",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Military Green"
+        },
+        {
+            "trait_type": "Skeleton",
+            "value": "Original"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "Winter Coat"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Chill"
+        }
+    ]
+}

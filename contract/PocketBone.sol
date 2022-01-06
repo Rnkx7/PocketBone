@@ -1664,14 +1664,14 @@ abstract contract Ownable is Context {
 pragma solidity ^0.7.0;
 pragma abicoder v2;
 
-contract PocketBone is ERC721, Ownable {
+contract PocketBones is ERC721, Ownable {
 
     uint256 public constant MAX_TOKENS = 10000;
     uint256 public constant SHUTOFF = 2400;
     uint256 public constant PRESALE_TOKENS = 100;
     uint256 public constant MAX_BY_MINT_WHITELIST = 1;
     // uint256 public constant price = 60 * 10**15; // .06 eth
-    uint256 public constant price = 1 * 10**14; // .0001 eth
+    uint256 public constant price = 1 * 10**15; // .001 eth
     bool public isSaleActive = false;
     bool public isPresaleActive = false;
     mapping(address => bool) private _whiteList;
@@ -1710,6 +1710,7 @@ contract PocketBone is ERC721, Ownable {
         require(_count <= MAX_BY_MINT_WHITELIST, "Incorrect amount to claim");
         require(_whiteListClaimed[msg.sender] + _count <= MAX_BY_MINT_WHITELIST, "Purchase exceeds max allowed");
         uint256 total = totalSupply();
+        require(total + _count < MAX_TOKENS + 1, "Exceeds available Pocket Bones");
         require(total + _count <= PRESALE_TOKENS, "Max limit");
         require(total <= PRESALE_TOKENS, "All presale Pocket Bones are sold out");
         require(msg.value >= price*_count, "Value below price");
@@ -1742,11 +1743,11 @@ contract PocketBone is ERC721, Ownable {
         _setBaseURI(_baseURI);
     }
 
-    function flipPresaleStatus() public onlyOwner {
+    function flipPresaleStatus() external onlyOwner {
         isPresaleActive = !isPresaleActive;
     }
 
-    function flipSaleStatus() public onlyOwner {
+    function flipSaleStatus() external onlyOwner {
         isSaleActive = !isSaleActive;
     }
 
@@ -1758,7 +1759,7 @@ contract PocketBone is ERC721, Ownable {
         _withdraw(w2, address(this).balance);
     }
 
-    function _withdraw(address _address, uint256 _amount) private {
+    function _withdraw(address _address, uint256 _amount) internal {
         payable(_address).transfer(_amount);
     }
 
