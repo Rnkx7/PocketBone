@@ -440,7 +440,7 @@ function MintPage({ initialWallets }) {
                                     className="btn mx-2 mb-1 button"
                                     disabled
                                   >
-                                    You've already minted your presale
+                                    You&apos;ve already minted your presale
                                     PocketBones
                                   </Button>
                                 )}
