@@ -17,8 +17,6 @@ __webpack_require__.d(__webpack_exports__, {
   "getServerSideProps": () => (/* binding */ getServerSideProps)
 });
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(282);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(297);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
@@ -591,13 +589,15 @@ var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_cl
 var next_image = __webpack_require__(675);
 ;// CONCATENATED MODULE: external "reactstrap"
 const external_reactstrap_namespaceObject = require("reactstrap");
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(282);
 ;// CONCATENATED MODULE: ./components/indexnavbar.js
-
-
  // nodejs library that concatenates strings
 
 
  // reactstrap components
+
+
 
 
 

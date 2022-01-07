@@ -251,7 +251,7 @@ function defaultImageLoader(loaderProps) {
 // handler instead of the img's onLoad attribute.
 
 
-function handleLoading(img, src, placeholder, onLoadingComplete) {
+function handleLoading(img, src, layout, placeholder, onLoadingComplete) {
   if (!img) {
     return;
   }
@@ -280,6 +280,8 @@ function handleLoading(img, src, placeholder, onLoadingComplete) {
             naturalHeight
           });
         }
+
+        if (false) { var ref; }
       });
     }
   };
@@ -353,7 +355,7 @@ function Image1(_param) {
   const qualityInt = getInt(quality);
   let isLazy = !priority && (loading === 'lazy' || typeof loading === 'undefined');
 
-  if (src.startsWith('data:')) {
+  if (src.startsWith('data:') || src.startsWith('blob:')) {
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
     unoptimized = true;
     isLazy = false;
@@ -496,7 +498,16 @@ function Image1(_param) {
     alt: "",
     "aria-hidden": true,
     src: `data:image/svg+xml;base64,${(0, _toBase64).toBase64(sizerSvg)}`
-  }) : null) : null, !isVisible && /*#__PURE__*/_react.default.createElement("noscript", null, /*#__PURE__*/_react.default.createElement("img", Object.assign({}, rest, generateImgAttrs({
+  }) : null) : null, /*#__PURE__*/_react.default.createElement("img", Object.assign({}, rest, imgAttributes, {
+    decoding: "async",
+    "data-nimg": layout,
+    className: className,
+    ref: img => {
+      setRef(img);
+      handleLoading(img, srcString, layout, placeholder, onLoadingComplete);
+    },
+    style: _objectSpread({}, imgStyle, blurStyle)
+  })), /*#__PURE__*/_react.default.createElement("noscript", null, /*#__PURE__*/_react.default.createElement("img", Object.assign({}, rest, generateImgAttrs({
     src,
     unoptimized,
     layout,
@@ -506,19 +517,11 @@ function Image1(_param) {
     loader
   }), {
     decoding: "async",
-    "data-nimg": true,
+    "data-nimg": layout,
     style: imgStyle,
-    className: className
-  }))), /*#__PURE__*/_react.default.createElement("img", Object.assign({}, rest, imgAttributes, {
-    decoding: "async",
-    "data-nimg": true,
     className: className,
-    ref: img => {
-      setRef(img);
-      handleLoading(img, srcString, placeholder, onLoadingComplete);
-    },
-    style: _objectSpread({}, imgStyle, blurStyle)
-  })), priority ? // Note how we omit the `href` attribute, as it would only be relevant
+    loading: loading || 'lazy'
+  }))), priority ? // Note how we omit the `href` attribute, as it would only be relevant
   // for browsers that do not support `imagesrcset`, and in those cases
   // it would likely cause the incorrect image to be preloaded.
   //
@@ -1564,8 +1567,7 @@ function interpolateAs(route, asPathname, query) {
     }
 
     if (repeat && !Array.isArray(value)) value = [value];
-    return (optional || param in dynamicMatches) && ( // Interpolate group into data URL if present
-    interpolatedRoute = interpolatedRoute.replace(replaced, repeat ? value.map( // these values should be fully encoded instead of just
+    return (optional || param in dynamicMatches) && (interpolatedRoute = interpolatedRoute.replace(replaced, repeat ? value.map( // these values should be fully encoded instead of just
     // path delimiter escaped since they are being inserted
     // into the URL and we expect URL encoded segments
     // when parsing dynamic route params
