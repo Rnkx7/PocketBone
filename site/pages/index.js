@@ -138,7 +138,7 @@ function MintPage({ initialWallets }) {
           }
         });
       }
-    });
+    }); 
   }
 
   async function mintBone(how_many_bones) {
