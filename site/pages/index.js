@@ -5,12 +5,37 @@ import IndexNavbar from "../components/indexnavbar";
 import Head from "next/head";
 import Link from "next/link";
 import { fakeWhitelist } from "../components/fakewhitelist.js";
-
-// reactstrap components
+import { PrismaClient } from "@prisma/client";
 import { Container, Row, Col, Card, CardBody, Button } from "reactstrap";
 
+const prisma = new PrismaClient();
+
+export async function getServerSideProps() {
+  const wallets = await prisma.wallets.findMany();
+  return {
+    props: {
+      initialWallets: wallets,
+    },
+  };
+}
+
+async function saveWallet(wallet, quantity, exists) {
+  const response = await fetch("api/wallets", {
+    method: "POST",
+    body: JSON.stringify({
+      id: wallet,
+      quantity: quantity,
+      exists: exists,
+    }),
+  });
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  }
+  return await response.json();
+}
+
 // core components
-function MintPage() {
+function MintPage({ initialWallets }) {
   // FOR WALLET
   const [signedIn, setSignedIn] = useState(false);
   const [walletAddress, setWalletAddress] = useState(null);
@@ -27,9 +52,10 @@ function MintPage() {
   const [presale, setPresale] = useState(false);
   const [bonePrice, setBonePrice] = useState(0);
   const [show, setShow] = useState(false);
-  const [fakePresale, setFakePresale] = useState(false);
+  const [fakePresale, setFakePresale] = useState(true);
   const [inFakeWhitelist, setinFakeWhitelist] = useState(false);
   const [mintCount, setMintCount] = useState(0);
+  const [exists, setExists] = useState(false);
 
   async function signIn() {
     if (typeof window.web3 !== "undefined") {
@@ -75,7 +101,7 @@ function MintPage() {
     setBoneContract(boneContract);
 
     const salebool = await boneContract.methods.isSaleActive().call();
-    setSaleStarted(true);
+    setSaleStarted(salebool);
 
     const presalebool = await boneContract.methods.isPresaleActive().call();
     setPresale(presalebool);
@@ -96,13 +122,19 @@ function MintPage() {
     const tokensMinted = await boneContract.methods.totalSupply().call();
     setTokensMinted(tokensMinted);
 
-    console.log(wallet.toUpperCase());
-    for (const [key, value] of Object.entries(fakeWhitelist)) {
-      if (key.toLowerCase() == wallet.toLowerCase()) {
+    fakeWhitelist.forEach((element) => {
+      if (element.toUpperCase() == wallet.toUpperCase()) {
         setinFakeWhitelist(true);
-        setMintCount(value);
+
+        initialWallets.forEach((item) => {
+          if (item.id.toUpperCase() == wallet.toUpperCase()) {
+            setMintCount(item.mintcount);
+            setExists(true);
+            console.log(item.mintcount);
+          }
+        });
       }
-    }
+    });
   }
 
   async function mintBone(how_many_bones) {
@@ -123,6 +155,7 @@ function MintPage() {
           .send({ from: walletAddress, value: price, gas: String(gasAmount) })
           .on("transactionHash", function (hash) {
             console.log("transactionHash", hash);
+            saveWallet(walletAddress, mintCount + how_many_bones, exists);
           })
           .catch(function (error) {
             alert(error);
@@ -134,12 +167,14 @@ function MintPage() {
           .catch(function (error) {
             alert(error);
           });
-        console.log("estimated gas", gasAmount);
+        console.log(mintCount);
         boneContract.methods
           .mintBone(how_many_bones)
           .send({ from: walletAddress, value: price, gas: String(gasAmount) })
-          .on("transactionHash", function (hash) {
+          .on("transactionHash", async function (hash) {
             console.log("transactionHash", hash);
+            saveWallet(walletAddress, mintCount + how_many_bones, exists);
+            console.log(mintCount);
           })
           .catch(function (error) {
             alert(error);
@@ -392,7 +427,9 @@ function MintPage() {
                               <>
                                 {mintCount < 3 ? (
                                   <Button
-                                    onClick={() => mintBone(1)}
+                                    onClick={() => {
+                                      mintBone(1);
+                                    }}
                                     className="btn mx-2 mb-1 button"
                                   >
                                     Mint 1 pack
@@ -403,7 +440,8 @@ function MintPage() {
                                     className="btn mx-2 mb-1 button"
                                     disabled
                                   >
-                                    You've already minted your presale PocketBones
+                                    You've already minted your presale
+                                    PocketBones
                                   </Button>
                                 )}
                               </>
@@ -435,28 +473,25 @@ function MintPage() {
                         {saleStarted ? (
                           <>
                             {inFakeWhitelist ? (
-                             <>
-                             {mintCount == 0 ? (
-                               <Button
-                                 onClick={() => mintBone(3)}
-                                 className="btn mx-2 mb-1 button"
-                               >
-                                 Mint 3 pack
-                               </Button>
-                             ) : (
-                               <Button
-                                 className="btn mx-2 mb-1 button"
-                                 disabled
-                               >
-                                 Not enough enough left, mint 1 instead
-                               </Button>
-                             )}
-                           </>
+                              <>
+                                {mintCount == 0 ? (
+                                  <Button
+                                    onClick={() => mintBone(3)}
+                                    className="btn mx-2 mb-1 button"
+                                  >
+                                    Mint 3 pack
+                                  </Button>
+                                ) : (
+                                  <Button
+                                    className="btn mx-2 mb-1 button"
+                                    disabled
+                                  >
+                                    Not enough enough left, mint 1 instead
+                                  </Button>
+                                )}
+                              </>
                             ) : (
-                              <Button
-                                className="btn mx-2 mb-1 button"
-                                disabled
-                              >
+                              <Button className="btn mx-2 mb-1 button" disabled>
                                 You are not in the presale list
                               </Button>
                             )}

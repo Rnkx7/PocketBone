@@ -13,8 +13,10 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
+    "@prisma/client": "^3.7.0",
     "boostrap": "^2.0.0",
     "classnames": "2.2.6",
+    "cookies-next": "^2.0.3",
     "express": "^4.17.1",
     "material-design-icons": "^3.0.1",
     "moment": "2.29.1",
@@ -38,8 +40,9 @@
     "web3": "^1.5.2"
   },
   "devDependencies": {
+    "bootstrap": "4.6.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
-    "bootstrap": "4.6.0"
+    "prisma": "^3.7.0"
   }
 }
