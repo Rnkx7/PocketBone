@@ -19,11 +19,12 @@ export async function getServerSideProps() {
   };
 }
 
-async function saveWallet(wallet, quantity, exists) {
+async function saveWallet(wallet, quantity, exists, id) {
   const response = await fetch("api/wallets", {
     method: "POST",
     body: JSON.stringify({
-      id: wallet,
+      id: id,
+      address: wallet,
       quantity: quantity,
       exists: exists,
     }),
@@ -56,6 +57,7 @@ function MintPage({ initialWallets }) {
   const [inFakeWhitelist, setinFakeWhitelist] = useState(false);
   const [mintCount, setMintCount] = useState(0);
   const [exists, setExists] = useState(false);
+  const [id, setId] = useState()
 
   async function signIn() {
     if (typeof window.web3 !== "undefined") {
@@ -122,13 +124,15 @@ function MintPage({ initialWallets }) {
     const tokensMinted = await boneContract.methods.totalSupply().call();
     setTokensMinted(tokensMinted);
 
+    console.log(initialWallets)
+
     fakeWhitelist.forEach((element) => {
       if (element.toUpperCase() == wallet.toUpperCase()) {
         setinFakeWhitelist(true);
-
         initialWallets.forEach((item) => {
-          if (item.id.toUpperCase() == wallet.toUpperCase()) {
+          if (item.address.toUpperCase() == wallet.toUpperCase()) {
             setMintCount(item.mintcount);
+            setId(item.id)
             setExists(true);
             console.log(item.mintcount);
           }
@@ -155,7 +159,7 @@ function MintPage({ initialWallets }) {
           .send({ from: walletAddress, value: price, gas: String(gasAmount) })
           .on("transactionHash", function (hash) {
             console.log("transactionHash", hash);
-            saveWallet(walletAddress, mintCount + how_many_bones, exists);
+            saveWallet(walletAddress, mintCount + how_many_bones, exists, id );
           })
           .catch(function (error) {
             alert(error);
@@ -173,7 +177,7 @@ function MintPage({ initialWallets }) {
           .send({ from: walletAddress, value: price, gas: String(gasAmount) })
           .on("transactionHash", async function (hash) {
             console.log("transactionHash", hash);
-            saveWallet(walletAddress, mintCount + how_many_bones, exists);
+            saveWallet(walletAddress, mintCount + how_many_bones, exists, id);
             console.log(mintCount);
           })
           .catch(function (error) {

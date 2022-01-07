@@ -9,40 +9,26 @@ const BoneApi = async (req, res) => {
     return res.status(405).json({ message: "method not allowed" });
   }
   const walletData = JSON.parse(req?.body);
-  const upsertUser = await prisma.wallets.upsert({
-    where: {
-      id: walletData.id,
-    },
-    update: {
-      id: walletData.id,
-      mintcount: walletData.quantity,
-    },
-    create: {
-      id: walletData.id,
-      mintcount: walletData.quantity,
-    },
-  });
-  res.json(upsertUser);
-
-  // if (!walletData.exists) {
-  //   const savedWallet = await prisma.wallets.create({
-  //     data: {
-  //       address: walletData.wallet,
-  //       mintcount: walletData.quantity,
-  //     },
-  //   });
-  //   res.json(savedWallet);
-  // } else {
-  //   const idString = walletData.id.toString()
-  //   const updatedWallet = await prisma.wallets.update({
-  //     where: { id: walletData.id, },
-  //     data: {
-  //       address: walletData.wallet,
-  //       mintcount: walletData.quantity,
-  //     },
-  //   });
-  //   res.json(updatedWallet);
-  // }
+  if (!walletData.exists) {
+    const createwallet = await prisma.wallets.create({
+      data: {
+        mintcount: walletData.quantity,
+        address: walletData.address,
+      },
+    })
+    res.json(createwallet);
+  } else {
+    const updateUser = await prisma.wallets.update({
+      where: {
+        id: walletData.id,
+      },
+      data: {
+        mintcount: walletData.quantity,
+        address: walletData.address,
+      },
+    })
+    res.json(updateUser);
+  }
 };
 
 export default BoneApi;
