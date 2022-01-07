@@ -29,6 +29,7 @@ function MintPage() {
   const [show, setShow] = useState(false);
   const [fakePresale, setFakePresale] = useState(true);
   const [inFakeWhitelist, setinFakeWhitelist] = useState(false);
+  const [mintCount, setMintCount] = useState(0);
 
   async function signIn() {
     if (typeof window.web3 !== "undefined") {
@@ -74,7 +75,7 @@ function MintPage() {
     setBoneContract(boneContract);
 
     const salebool = await boneContract.methods.isSaleActive().call();
-    setSaleStarted(salebool);
+    setSaleStarted(true);
 
     const presalebool = await boneContract.methods.isPresaleActive().call();
     setPresale(presalebool);
@@ -95,8 +96,12 @@ function MintPage() {
     const tokensMinted = await boneContract.methods.totalSupply().call();
     setTokensMinted(tokensMinted);
 
-    if (fakeWhitelist.includes(wallet)) {
-      setinFakeWhitelist(true);
+    console.log(wallet.toUpperCase());
+    for (const [key, value] of Object.entries(fakeWhitelist)) {
+      if (key.toLowerCase() == wallet.toLowerCase()) {
+        setinFakeWhitelist(true);
+        setMintCount(value);
+      }
     }
   }
 
@@ -384,12 +389,24 @@ function MintPage() {
                         {saleStarted ? (
                           <>
                             {inFakeWhitelist ? (
-                              <Button
-                                onClick={() => mintBone(1)}
-                                className="btn mx-2 mb-1 button"
-                              >
-                                Mint 1 pack
-                              </Button>
+                              <>
+                                {mintCount < 3 ? (
+                                  <Button
+                                    onClick={() => mintBone(1)}
+                                    className="btn mx-2 mb-1 button"
+                                  >
+                                    Mint 1 pack
+                                  </Button>
+                                ) : (
+                                  <Button
+                                    onClick={() => mintBone(1)}
+                                    className="btn mx-2 mb-1 button"
+                                    disabled
+                                  >
+                                    You've already minted your presale PocketBones
+                                  </Button>
+                                )}
+                              </>
                             ) : (
                               <Button
                                 onClick={() => mintBone(1)}
@@ -418,15 +435,25 @@ function MintPage() {
                         {saleStarted ? (
                           <>
                             {inFakeWhitelist ? (
-                              <Button
-                                onClick={() => mintBone(3)}
-                                className="btn mx-2 mb-1 button"
-                              >
-                                Mint 3 pack
-                              </Button>
+                             <>
+                             {mintCount == 0 ? (
+                               <Button
+                                 onClick={() => mintBone(3)}
+                                 className="btn mx-2 mb-1 button"
+                               >
+                                 Mint 3 pack
+                               </Button>
+                             ) : (
+                               <Button
+                                 className="btn mx-2 mb-1 button"
+                                 disabled
+                               >
+                                 Not enough enough left, mint 1 instead
+                               </Button>
+                             )}
+                           </>
                             ) : (
                               <Button
-                                onClick={() => mintBone(3)}
                                 className="btn mx-2 mb-1 button"
                                 disabled
                               >

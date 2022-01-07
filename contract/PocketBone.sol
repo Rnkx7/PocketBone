@@ -1670,8 +1670,7 @@ contract PocketBones is ERC721, Ownable {
     uint256 public constant SHUTOFF = 2400;
     uint256 public constant PRESALE_TOKENS = 100;
     uint256 public constant MAX_BY_MINT_WHITELIST = 1;
-    // uint256 public constant price = 60 * 10**15; // .06 eth
-    uint256 public constant price = 1 * 10**15; // .001 eth
+    uint256 public constant price = 70 * 10**16; // .06 eth
     bool public isSaleActive = false;
     bool public isPresaleActive = false;
     mapping(address => bool) private _whiteList;

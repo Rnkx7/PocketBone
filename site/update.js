@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const OPENSEA_URI = 'https://testnets-api.opensea.io/asset/0x7B13C0D3dFd3c651B2E3cB4cc492A64572fa89e2'; 
 
 // Maximum Tokens Belonging to Contract
-const MAX_TOKENS = 12;
+const MAX_TOKENS = 50;
 
 function refreshData(tokenId) {
     const URI = `${OPENSEA_URI}/${tokenId}/?force_update=true`;
